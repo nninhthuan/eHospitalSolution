@@ -13,5 +13,7 @@ namespace eHospitalSolution.Data.Entities
         public string Dongia { get; set; }
         public string TongTien { get; set; }
         public string LieuDung { get; set; }
+
+        public LinkedList<Thuoc> Thuoc { get; set; }
     }
 }

@@ -12,5 +12,8 @@ namespace eHospitalSolution.Data.Entities
         public string HoTen { get; set; }
         public string KinhNghiem { get; set; }
         public string BangCap { get; set; }
+
+        public LinkedList<Thuoc> Thuoc { get; set; }
+        public Taikhoan TaiKhoan { get; set; }
     }
 }

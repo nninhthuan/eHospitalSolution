@@ -12,5 +12,13 @@ namespace eHospitalSolution.Data.Entities
         public string TenDangNhap { get; set; }
         public string MatKhau { get; set; }
 
+        public Bacsy BacSy { get; set; }
+
+        public Duocsi DuocSi { get; set; }
+
+        public Thungan ThuNgan { get; set; }
+
+        public Benhnhan BenhNhan { get; set; }
+
     }
 }

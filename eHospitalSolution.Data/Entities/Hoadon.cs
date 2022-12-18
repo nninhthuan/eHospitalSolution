@@ -13,5 +13,7 @@ namespace eHospitalSolution.Data.Entities
         public string TrangThaiThanhToan { get; set; }
         public DateTime NgayXuat { get; set; }
 
+        public Thungan ThuNgan { get; set; }
+
     }
 }

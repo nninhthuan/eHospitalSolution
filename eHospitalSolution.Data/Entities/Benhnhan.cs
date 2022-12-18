@@ -15,5 +15,11 @@ namespace eHospitalSolution.Data.Entities
         public string SoDienThoai { get; set; }
         public string NguoiThan { get; set; }
 
+        public Taikhoan TaiKhoan { get; set; }
+
+        public Hosoyte HoSoYTe { get; set; }
+
+        public Phieukhambenh PhieuKhamBenh { get; set; }
+
     }
 }

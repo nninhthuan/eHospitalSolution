@@ -12,5 +12,10 @@ namespace eHospitalSolution.Data.Entities
         public string HoTen { get; set; }
         public DateTime NamSinh { get; set; }
         public string ViTri { get; set; }
+
+        public LinkedList<Thuoc> Thuoc { get; set; }
+        public LinkedList<Hoadon> HoaDon { get; set; }
+
+        public Taikhoan TaiKhoan { get; set; }
     }
 }

@@ -15,5 +15,9 @@ namespace eHospitalSolution.Data.Entities
         public string LoaiThuoc { get; set; }
         public string ChiPhiKham { get; set; }
 
+        public Bacsy BacSy { get; set; }
+
+        public Benhnhan BenhNhan { get; set; }
+
     }
 }

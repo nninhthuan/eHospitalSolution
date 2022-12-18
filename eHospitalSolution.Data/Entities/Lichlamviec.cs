@@ -11,5 +11,9 @@ namespace eHospitalSolution.Data.Entities
         public int MaLichLam { get; set; }
         public DateTime NgayTruc { get; set; }
         public DateTime CaTruc { get; set; }
+
+        public List<Bacsy> BacSy { get; set; }
+
+
     }
 }
