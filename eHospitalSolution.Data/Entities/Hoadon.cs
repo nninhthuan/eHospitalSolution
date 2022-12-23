@@ -8,12 +8,15 @@ namespace eHospitalSolution.Data.Entities
 {
     public class Hoadon
     {
-        public string MaHoadon { get; set; }
+        public int MaHoadon { get; set; }
         public DateTime NgayTao { get; set; }
         public string TrangThaiThanhToan { get; set; }
         public DateTime NgayXuat { get; set; }
 
+
         public Thungan ThuNgan { get; set; }
+
+        public int MaThungan { get; set; }
 
     }
 }

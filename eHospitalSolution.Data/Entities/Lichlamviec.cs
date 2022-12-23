@@ -12,6 +12,7 @@ namespace eHospitalSolution.Data.Entities
         public DateTime NgayTruc { get; set; }
         public DateTime CaTruc { get; set; }
 
+        public int MaBacsy { get; set; }
         public List<Bacsy> BacSy { get; set; }
 
 

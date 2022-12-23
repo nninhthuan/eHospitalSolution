@@ -13,10 +13,15 @@ namespace eHospitalSolution.Data.Entities
         public string ChuyenKhoa{ get; set; }
         public string AnhDaiDien { get; set; }
 
+        public int MaTaikhoan { get; set; }
         public Taikhoan TaiKhoan { get; set; }
 
+
+        public int MaLichLam { get; set; }
         public Lichlamviec LichLamViec { get; set; }
 
+
+        public int MaPhieukham { get; set; }
         public List<Phieukhambenh> PhieuKhamBenh { get; set; }    
 
     }

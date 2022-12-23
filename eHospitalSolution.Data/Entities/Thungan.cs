@@ -8,14 +8,18 @@ namespace eHospitalSolution.Data.Entities
 {
     public class Thungan
     {
-        public string MaThungan { get; set; }
+        public int MaThungan { get; set; }
         public string HoTen { get; set; }
         public DateTime NamSinh { get; set; }
         public string ViTri { get; set; }
 
-        public LinkedList<Thuoc> Thuoc { get; set; }
-        public LinkedList<Hoadon> HoaDon { get; set; }
+        public int MaThuoc { get; set; }
+        public List<Thuoc> Thuoc { get; set; }
 
+        public int MaHoadon { get; set; }
+        public List<Hoadon> HoaDon { get; set; }
+
+        public int MaTaikhoan { get; set; }
         public Taikhoan TaiKhoan { get; set; }
     }
 }

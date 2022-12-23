@@ -13,9 +13,14 @@ namespace eHospitalSolution.Data.Entities
         public string SoLuong { get; set; }
         public string Gia { get; set; }
 
+
+        public int MaDuocSi { get; set; }
         public Duocsi DuocSi { get; set; }
 
+        public int MaDonThuoc { get; set; }
         public Donthuoc DonThuoc { get; set; }
+
+        public int MaThungan { get; set; }
         public Thungan ThuNgan { get; set; }
 
     }

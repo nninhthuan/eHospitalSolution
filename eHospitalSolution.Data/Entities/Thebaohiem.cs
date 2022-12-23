@@ -11,7 +11,7 @@ namespace eHospitalSolution.Data.Entities
         public int MaBH { get; set; }
         public string HoTen { get; set; }
         public DateTime NgaySinh { get; set; }
-        public string DiaChiChi { get; set; }
+        public string DiaChi { get; set; }
         public string SoDienThoai { get; set; }
 
         public Benhnhan BenhNhan { get; set; }
